@@ -1,0 +1,77 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Sensitive Configuration Files
+flutter/
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+.env
+.env.*
+*.txt
+secrets.json
+
+# .NET environment
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Flutter / Dart environment
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.ipr
+*.iws
+
+# The .vscode folder contains bare-minimum workspace settings.
+# Keep launch.json and settings.json if you want to share debug / standard configurations
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+kemora_app/build/
+kemora_app/.dart_tool/
+kemora_app/.flutter-plugins
+kemora_app/.flutter-plugins-dependencies
+kemora_app/.pub-cache/
+kemora_app/.pub/
+
+# Web
+kemora_app/lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will automatically add this to its gitignore, 
+# but it's good to have here too.
+kemora_app/android/app/src/main/res/values/secrets.xml
+
+# macOS
+.DS_Store
